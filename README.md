@@ -12,5 +12,5 @@ All ````.osm```` files and ````.py```` translation scripts can be found in this 
 
 ## Sourcing the data
 
-All geo data was obtained in shapefile format from the Instituto de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm).
+All geo data was obtained in shapefile format from the Instituto de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm) to convert to ````.osm````.
 
