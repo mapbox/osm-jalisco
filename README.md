@@ -8,7 +8,7 @@ All ````.osm```` files and ````.py```` translation scripts can be found in this 
 
 ## Using the data
 
-````.osm```` files can be imported into OpenStreetMap's open source desktop editor [JOSM](http://josm.openstreetmap.de/) but cannot be uploaded directly to OSM. This data is simply intended to serve as a resource to enourage and help guide users accurately map this region on their own. If you are new to OSM, check out our post about [tracing satellite imagery in OSM](http://mapbox.com/blog/satellite-tracing-osm/) on the MapBox blog to get started.
+````.osm```` files can be imported into OpenStreetMap's open source desktop editor [JOSM](http://josm.openstreetmap.de/) but cannot be uploaded directly to OSM. This data is simply intended to serve as a resource to guide and encourage users to accurately map this region on their own. If you are new to OSM, check out our post about [tracing satellite imagery in OSM](http://mapbox.com/blog/satellite-tracing-osm/) on the MapBox blog to get started.
 
 ## Sourcing the data
 
