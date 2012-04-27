@@ -18,11 +18,11 @@ Navigate to the appropriate directory and select the file.
 
 ![](http://farm8.staticflickr.com/7261/7118786977_7d4864fc53.jpg)
 
-Once the file has uploaded you'll want to turn on Bing satellite imagery which will serve as the base layer for all of your tracing. Slect Imagery - Bing Sat to add this layer into JOSM.
+Once the file has uploaded you'll want to turn on Bing satellite imagery which will serve as the base layer for all of your tracing. Select Imagery - Bing Sat to add this layer into JOSM.
 
 ![](http://farm8.staticflickr.com/7200/6972707992_e96e1b7ff3.jpg)
 
-Zoom to the region you wish to trace and download the OSM data that is already there by selecting the ````Download map data```` icon.
+Zoom to the region you want to trace and download the OSM data that is already there by selecting the ````Download map data```` icon.
 
 ![](http://farm8.staticflickr.com/7049/7118786941_74b7d15488.jpg)
 
@@ -30,7 +30,7 @@ To start tracing add a new layer by selecting File - New Layer.
 
 ![](http://farm8.staticflickr.com/7176/6972707882_cc72cf70bd.jpg)
 
-By default JOSM will activate the new layer, deactivating the jalisco data layer previously imported and preventing you from viewing its properties. To reactive this layer to refer to its tagging information select it in the layer list then select the ````Activate selected layer```` icon.
+By default JOSM will activate the new layer, deactivating the Jalisco data layer previously imported and preventing you from viewing its properties. To reactive this layer to refer to its tagging information select it in the layer list then select the ````Activate selected layer```` icon.
 
 ![](http://farm9.staticflickr.com/8141/6972707964_cac95da327.jpg)
 
@@ -38,7 +38,7 @@ Then select the appropriate road segment and its properties will appear in the w
 
 ![](http://farm8.staticflickr.com/7081/7118786871_d7b1163bfe.jpg)
 
-Alternate between layers using the same method, and remember to only edit your own layer and not the jalisco road data provided. If you are new to OSM, check out our post about [tracing satellite imagery](http://mapbox.com/blog/satellite-tracing-osm/) on the MapBox blog for more help getting started.
+Alternate between layers using the same method, and remember to only edit your own layer and not the Jalisco road data provided. If you are new to OSM, check out our post about [tracing satellite imagery](http://mapbox.com/blog/satellite-tracing-osm/) on the MapBox blog for more help getting started.
 
 ## Sourcing the data
 
