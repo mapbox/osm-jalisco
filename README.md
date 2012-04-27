@@ -42,7 +42,7 @@ Alternate between layers using the same method, and remember to only edit your o
 
 ## Sourcing the data
 
-All geo data was obtained in shapefile format from the Instituto de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm) to convert to ````.osm```` format with the following command:
+All geo data was obtained in shapefile format from the Instituto de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [pnorman's](https://github.com/pnorman) version of [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm#pnorman.27s_updated_version) to convert to ````.osm```` format with the following command:
 
 ````python ogr2osm.py /your/file/path/Camino_2011.shp -t /your/file/path/jalisco-caminos.py```` 
 
