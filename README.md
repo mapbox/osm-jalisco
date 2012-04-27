@@ -8,9 +8,41 @@ All ````.osm```` files and ````.py```` translation scripts can be found in this 
 
 ## Using the data
 
-````.osm```` files can be imported into OpenStreetMap's open source desktop editor [JOSM](http://josm.openstreetmap.de/) but cannot be uploaded directly to OSM. This data is simply intended to serve as a resource to guide and encourage users to accurately map this region on their own. If you are new to OSM, check out our post about [tracing satellite imagery in OSM](http://mapbox.com/blog/satellite-tracing-osm/) on the MapBox blog to get started.
+All ````.osm```` files can be imported into OpenStreetMap's open source desktop editor [JOSM](http://josm.openstreetmap.de/) but cannot be uploaded directly to OSM. This data is simply intended to serve as a resource to guide and encourage users to accurately map this region on their own.
+
+To import the data click File, Open.
+
+![](http://farm8.staticflickr.com/7239/7118786805_24b68e7817.jpg)
+
+Navigate to the appropriate directory and select the file.
+
+![](http://farm8.staticflickr.com/7261/7118786977_7d4864fc53.jpg)
+
+Once the file has uploaded you'll want to turn on Bing satellite imagery which will serve as the base layer for all of your tracing. Slect Imagery - Bing Sat to add this layer into JOSM.
+
+![](http://farm8.staticflickr.com/7200/6972707992_e96e1b7ff3.jpg)
+
+Zoom to the region you wish to trace and download the OSM data that is already there by selecting the ````Download map data```` icon.
+
+![](http://farm8.staticflickr.com/7049/7118786941_74b7d15488.jpg)
+
+To start tracing add a new layer by selecting File - New Layer.
+
+![](http://farm8.staticflickr.com/7176/6972707882_cc72cf70bd.jpg)
+
+By default JOSM will activate the new layer, deactivating the jalisco data layer previously imported and preventing you from viewing its properties. To reactive this layer to refer to its tagging information select it in the layer list then select the ````Activate selected layer```` icon.
+
+![](http://farm9.staticflickr.com/8141/6972707964_cac95da327.jpg)
+
+Then select the appropriate road segment and its properties will appear in the window on the right.
+
+![](http://farm8.staticflickr.com/7081/7118786871_d7b1163bfe.jpg)
+
+Alternate between layers using the same method, and remember to only edit your own layer and not the jalisco road data provided. If you are new to OSM, check out our post about [tracing satellite imagery](http://mapbox.com/blog/satellite-tracing-osm/) on the MapBox blog for more help getting started.
 
 ## Sourcing the data
 
-All geo data was obtained in shapefile format from the Instituto de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm) to convert to ````.osm````.
+All geo data was obtained in shapefile format from the Instituto de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm) to convert to ````.osm```` format with the following command:
+
+````python ogr2osm.py /your/file/path/Camino_2011.shp -t /your/file/path/jalisco-caminos.py```` 
 
