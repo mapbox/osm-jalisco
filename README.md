@@ -46,3 +46,4 @@ All geo data was obtained in shapefile format from the Instituto de Informacion 
 
 ````python ogr2osm.py /your/file/path/Camino_2011.shp -t /your/file/path/jalisco-caminos.py```` 
 
+### PLEASE READ THE OGR2OSM DOCUMENTATION CAREFULLY AND ALERT THE COMMUNITY BEFORE RUNNING ANY SCRIPTED IMPORTS
