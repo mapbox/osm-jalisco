@@ -1,4 +1,4 @@
-def translateAttributes(attrs):
+def filterTags(attrs):
     if not attrs: return
 
     tags = {}
