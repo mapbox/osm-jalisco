@@ -6,8 +6,11 @@ def translateAttributes(attrs):
     # all rows for FUENTE are 'ITEJ' according the sample button (under Advanced serach) in QGIS that acts as a 'select distinct'
     tags.update({'source':'ITEJ'})
 
+    # set highway= tag to residential as default. 
+    tags.update({'highway':'residential'})
+
     # Use NOMBRE for name
-    if attrs['NOMBRE']:
+    if attrs['NOMBRE'] != 'No disponible':
         tags.update({'name':attrs['NOMBRE']})
 
     # Use RECUBRIMIE for surface= tags
