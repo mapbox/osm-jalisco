@@ -8,6 +8,8 @@ All ````.osm```` files and ````.py```` translation scripts can be found in this 
 
 ## Using the data
 
+[See instructions for using the data with Potlatch](http://www.openstreetmap.org/user/Richard/diary)
+
 All ````.osm```` files can be imported into OpenStreetMap's open source desktop editor [JOSM](http://josm.openstreetmap.de/) but cannot be uploaded directly to OSM. This data is simply intended to serve as a resource to guide and encourage users to accurately map this region on their own.
 
 To import the data select File, Open.
