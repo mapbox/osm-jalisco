@@ -32,7 +32,7 @@ To start tracing add a new layer by selecting File - New Layer.
 
 ![](http://farm8.staticflickr.com/7176/6972707882_cc72cf70bd.jpg)
 
-By default JOSM will activate the new layer, deactivating the Jalisco data layer previously imported and preventing you from viewing its properties. To reactive this layer to refer to its tagging information select it in the layer list then select the ````Activate selected layer```` icon.
+By default JOSM will activate the new layer, deactivating the Jalisco data layer previously imported and preventing you from viewing its properties. To reactivate this layer to refer to its tagging information select it in the layer list then select the ````Activate selected layer```` icon.
 
 ![](http://farm9.staticflickr.com/8141/6972707964_cac95da327.jpg)
 
@@ -44,7 +44,7 @@ Alternate between layers using the same method, and remember to only edit your o
 
 ## Sourcing the data
 
-All geo data was obtained in shapefile format from the Sistem de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website. nd made availabe to OSM with [permission from Carlos Ruiz](https://gist.github.com/2648407/d5c5f6af02d1670ae1c839a6de0b9650997490f8). We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [pnorman's](https://github.com/pnorman) version of [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm#pnorman.27s_updated_version) to convert to ````.osm```` format with the following command:
+All geo data was obtained in shapefile format from the Sistem de Informacion Territorial del Estado de Jalisco ([SITEL](http://sitel.jalisco.gob.mx/index2.php)) website and made availabe to OSM with [permission from Carlos Ruiz](https://gist.github.com/2648407/d5c5f6af02d1670ae1c839a6de0b9650997490f8). We wrote the python scripts to translate each file's metadata into appropriate OSM tagging, using [pnorman's](https://github.com/pnorman) version of [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm#pnorman.27s_updated_version) to convert to ````.osm```` format with the following command:
 
 ````python ogr2osm.py /your/file/path/Camino_2011.shp -t /your/file/path/jalisco-caminos.py```` 
 
